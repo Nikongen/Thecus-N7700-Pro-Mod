@@ -23,3 +23,12 @@ be careful, my first order was an Adapter with the wrong direction
    * [This Adapter](https://www.ebay.de/itm/333395176710) worked for me
 2. You need a 44pin IDE cable, around 30cm long
 3.  You can clamp the SSD in the case. No mount needed (see image)
+
+# Infos about the NICs
+(Web)[https://www.thecus.com/product?cat=linux_nas&cat_type=smbTower&PROD_ID=74&language_num=1]
+The NAS has two Intel 82574L 10/100/1000 Mbit/s NICs
+```bash
+root@nas:~# lspci | egrep -i --color 'network|ethernet'
+01:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection
+02:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection
+``
