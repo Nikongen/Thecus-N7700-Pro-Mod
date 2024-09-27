@@ -29,11 +29,14 @@ There is a VGA port on the mainboard, but no connector is soldered here. In the 
    1. Get a VGA Port e.g. from a broken mainboard.
    2. Solder the VGA port to the board.
 3. Punch out the cut-out for the VGA port on the backside of the case
-4. Assemble and test.
+
+<img alt="VGA cut-out on backside." src="images/backside-orig.jpeg" width="250px">
+   
+5. Assemble and test.
    
    <img alt="Testing soldered VGA connector." src="images/Test.JPG" width="250px"><img alt="Bootscreen." src="images/Boot.JPEG" width="450px">
 
-5. Start and **Hold** Del-Key for BIOS.
+6. Start and **Hold** Del-Key for BIOS.
    
    <img alt="BIOS." src="images/Bios2.JPEG" width="250px">
 
