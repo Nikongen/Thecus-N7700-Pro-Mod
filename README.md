@@ -19,6 +19,7 @@ root@nas:~# lspci | egrep -i --color 'network|ethernet'
 ```
 
 # Modifications
+My modifications are inspired by this [blog article](https://www.mogilowski.net/2016/07/22/fixing-broken-thecus-n8800pro-nas-or-install-linux-on-thecus-n8880pro-nas/)
 ## Make the VGA port usable
 There is a VGA port on the mainboard, but no connector is soldered here. In the case there is even a fitting cutout for the VGA connector.
 1. Disassemble the NAS, get the mainboard out (see [Maintance manual](docs/N7700-motherboard-and-power-supply-replacing-SOP2008-11-11.pdf)
