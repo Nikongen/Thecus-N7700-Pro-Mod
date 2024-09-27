@@ -18,6 +18,7 @@ root@nas:~# lspci | egrep -i --color 'network|ethernet'
 
 # Modifications
 ## Make the VGA port usable
+There is a VGA port on the mainboard, but no connector is soldered here. In the case there is even a fitting cutout for the VGA connector.
 1. Disassemble the NAS, get the mainboard out (see [Maintance manual](docs/N7700-motherboard-and-power-supply-replacing-SOP2008-11-11.pdf)
 
 <img alt="Removing the mainboard." src="images/Backside_open.JPG" width="250px"><img alt="Mainboard with mods." src="images/MainboardwMods.JPEG" width="250px">
@@ -25,11 +26,12 @@ root@nas:~# lspci | egrep -i --color 'network|ethernet'
 3. There are soldering connections for a VGA Port.
    1. Get a VGA Port e.g. from a broken mainboard.
    2. Solder the VGA port to the board.
+3. Punch out the cut-out for the VGA port on the backside of the case
 4. Assemble and test.
    
    <img alt="Testing soldered VGA connector." src="images/Test.JPG" width="250px"><img alt="Bootscreen." src="images/Boot.JPEG" width="450px">
 
-6. Start and **Hold** Del-Key for BIOS.
+5. Start and **Hold** Del-Key for BIOS.
    
    <img alt="BIOS." src="images/Bios2.JPEG" width="250px">
 
