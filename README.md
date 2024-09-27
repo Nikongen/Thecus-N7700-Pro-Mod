@@ -3,8 +3,7 @@ I decided to sell this machine but I thought maybe other people could use the in
 I put documentation pdf files, [software](docs/ThecusNASSoftware.zip) and a copy of the [original OS](Thecus_NAS_OS5_X32_FW_beta_5.03.02.8.rom) (Caution! never tested this, found it somewhere) to the [docs folder](docs).
 Moreover I share my modifications to make this old NAS a usable fileserver or backup target in 2024
 
- <img alt="Frontside" src="images/FrontCages.JPEG" width="400px">
- <img alt="Backside with VGA port" src="images/BackwVGA.JPEG" width="400px">
+ <img alt="Frontside" src="images/FrontCages.JPEG" width="400px"> <img alt="Backside with VGA port" src="images/BackwVGA.JPEG" width="400px">
 
 # Specs
 * [Website Thecus N770 Pro specs](https://www.thecus.com/product?cat=linux_nas&cat_type=smbTower&PROD_ID=27&language_num=1)
