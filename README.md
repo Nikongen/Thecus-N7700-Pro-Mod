@@ -10,7 +10,6 @@ Moreover I share my modifications to make this old NAS a usable fileserver or ba
   * [Print2PDF of Website](doks/specs.pdf)  
 * [User Manual](docs/N7700PRO_UM_V1.1_EN.pdf)
 ## Infos about the NICs
-(Web)[https://www.thecus.com/product?cat=linux_nas&cat_type=smbTower&PROD_ID=74&language_num=1]
 The NAS has two Intel 82574L 10/100/1000 Mbit/s NICs
 ```bash
 root@nas:~# lspci | egrep -i --color 'network|ethernet'
